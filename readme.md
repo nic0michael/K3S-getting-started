@@ -12,9 +12,9 @@ lion.loseyourip.com : 10.154.2.97 (Worker Node)
 ```
 
 ## 2 Create Master Node
+// #curl -sfL https://get.k3s.io | sh - // don’t use this
 ```
 sudo su -
-#curl -sfL https://get.k3s.io | sh - //// don’t use this
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--node-ip 10.154.2.93" K3S_NODE_NAME="kudu.loseyourip.com" sh -
 ```
 ### Verify K3S service is running
@@ -39,7 +39,7 @@ which kubectl
 kubectl get endpoints
 10.154.2.93:6443
 ```
-### To uninstall K3s master from a server node, run:
+### When you need to uninstall K3s master from a server node, run:
 ```
 /usr/local/bin/k3s-uninstall.sh
 ```
@@ -68,7 +68,7 @@ journalctl -f --unit k3s-agent
 ```
 
 
-### To uninstall K3s from an agent node, run:
+### When you need to uninstall K3s from an agent node, run:
 ```
 /usr/local/bin/k3s-agent-uninstall.sh
 ```
@@ -291,6 +291,7 @@ Commercial support is available at
 </html>
 ```
 Now open nginx in your browser
+
 http://kudu.loseyourip.com/
 
 http://lion.loseyourip.com/
