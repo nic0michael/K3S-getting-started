@@ -1,5 +1,6 @@
 # K3S HowTo
-
+After a lot of struggling to get K3S working I got the answer and decided to share this with your
+ 
 ## 1 PREREQUISITES
 
 Download Ubuntu Server 18.04
