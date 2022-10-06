@@ -8,9 +8,12 @@ chmod 775 CreateDeploymentCommands4Ubuntu.sh
 nano CreateDeploymentCommands4Ubuntu.sh
 ```
 Paste the content of this file there
-CreateDeploymentCommands4Ubuntu.sh
+https://github.com/nic0michael/K3S-getting-started/blob/master/CreateDeploymentCommands4Ubuntu.sh
+
 Press Ctrl X
+
 Press Y
+
 Press Enter
 
 ## Run the Shell Script
