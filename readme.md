@@ -1,6 +1,8 @@
 # K3S HowTo
 After a lot of struggling to get K3S working I got the answer and decided to share this with you
 
+In Section 5 we show you how to use a shell script provided to create the commands to generate your Master and Worker Nodes using your server IP addresses and DNS Names
+
 ## 1 PREREQUISITES
 
 Download Ubuntu Server 18.04
