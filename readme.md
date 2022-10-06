@@ -297,6 +297,11 @@ http://kudu.loseyourip.com/
 
 http://lion.loseyourip.com/
 
+## 5 Script provided to Generate your Master Node and Worker Nodes 
+This script will generated this same document using your IP Addresses and your DNS Names
+
+https://github.com/nic0michael/K3S-getting-started/blob/master/HowToUseScript.md
+
 # References
 I have learned hundreds of ways not to get K3S working but the following links got me going
 I have also learned many ways that Vagrant did not work for me
