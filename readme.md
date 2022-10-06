@@ -4,7 +4,7 @@ After a lot of struggling to get K3S working I got the answer and decided to sha
 ## 1 PREREQUISITES
 
 Download Ubuntu Server 18.04
-Install Two VM instances in VirtualBox
+Install Three VM instances in VirtualBox
 
 You need to setup a free account with DynuDNS : https://www.dynu.com/en-US/ControlPanel/Login
 
