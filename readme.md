@@ -6,11 +6,17 @@ After a lot of struggling to get K3S working I got the answer and decided to sha
 Download Ubuntu Server 18.04
 Install Two VM instances in VirtualBox
 
+You need to setup a free account with DynuDNS : https://www.dynu.com/en-US/ControlPanel/Login
+
+With DynuDNS you create 3 free Dynamic DNS entries for your servers: https://www.dynu.com/en-US/ControlPanel/DDNS
 ```
-Use DynuDNS (https://www.dynu.com/en-US/ControlPanel) create two DDNS services
-kudu.loseyourip.com : 10.154.2.93 (Master Node)
+buffalo.loseyourip.com : 10.154.2.88 (Master Node)
+kudu.loseyourip.com : 10.154.2.93 (Worker Node)
 lion.loseyourip.com : 10.154.2.97 (Worker Node)
 ```
+
+
+
 
 ## 2 Create Master Node
 // #curl -sfL https://get.k3s.io | sh - // don’t use this
