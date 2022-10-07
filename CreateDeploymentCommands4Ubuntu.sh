@@ -2,7 +2,7 @@
 
 #nano CreateDeploymentCommands4Ubuntu.sh
 #chmod 775 CreateDeploymentCommands4Ubuntu.sh
-#./CreateDeploymentCommands4Ubuntu.sh > make-ubuntu-K3S-servers.txt
+#./CreateDeploymentCommands4Ubuntu.sh > make-master-and-worker-nodes.txt
 
 LOGIN_USER1="tonia"
 LOGIN_USER2="nickm"
