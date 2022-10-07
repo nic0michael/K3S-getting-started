@@ -19,7 +19,7 @@ FIRST_WORKER_NODE_NAME="kudu.loseyourip.com"
 SECOND_WORKER_NODE_NAME="lion.loseyourip.com"
 
 #You need to change this token after the installation of the master node has been creaated
-MASTER_TOKEN="K1026e692c09900990359e4959bea4c6b5bf943ddb7b2ca1d4bb7edfae7bff181da::server:c2f4a96a9a957e2c838c33c2f5707164"
+MASTER_TOKEN="k3s_token="K101fd8ba79ac56ad5c615267b43a3d52e2706c4632796ec049e29bf2165dec658d::server:00e58ab05f737514ff0cb3e8d5cee9e6"
 
 MASTER_NODE_URL="https://$MASTER_NODE_IP:6443"
 echo "## K3S_Master_node_and_worker_nodes_create_commands_for_Ubuntu.txt ##"
