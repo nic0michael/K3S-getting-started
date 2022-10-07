@@ -19,11 +19,11 @@ Press Enter
 ## Run the Shell Script
 Run this command this way:
 ```
-./CreateDeploymentCommands4Ubuntu.sh > make-ubuntu-K3S-servers.txt
+./CreateDeploymentCommands4Ubuntu.sh > make-master-and-worker-nodes.txt
 ```
 
 ## Display the generated File
 To display the generated file run this command:
 ```
-cat make-ubuntu-K3S-servers.txt
+catmake-master-and-worker-nodes.txt
 ```
