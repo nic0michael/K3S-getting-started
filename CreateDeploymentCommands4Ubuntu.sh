@@ -4,17 +4,17 @@
 #chmod 775 CreateDeploymentCommands4Ubuntu.sh
 #./CreateDeploymentCommands4Ubuntu.sh > make-ubuntu-K3S-servers.txt
 
-LOGIN_USER1="nickm"
+LOGIN_USER1="tonia"
 LOGIN_USER2="nickm"
 LOGIN_USER3="nickm"
 
 
-MASTER_NODE_IP="10.154.2.88"
+MASTER_NODE_IP="10.154.2.113"
 FIRST_WORKER_NODE_IP="10.154.2.93"
 SECOND_WORKER_NODE_IP="10.154.2.97"
 
 
-MASTER_NODE_NAME="buffalo.loseyourip.com"
+MASTER_NODE_NAME="tiger.loseyourip.com"
 FIRST_WORKER_NODE_NAME="kudu.loseyourip.com"
 SECOND_WORKER_NODE_NAME="lion.loseyourip.com"
 
