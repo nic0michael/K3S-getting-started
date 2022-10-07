@@ -27,3 +27,5 @@ To display the generated file run this command:
 ```
 catmake-master-and-worker-nodes.txt
 ```
+## This is what the generated file will look like:
+https://github.com/nic0michael/K3S-getting-started/blob/master/make-master-and-worker-nodes.txt
